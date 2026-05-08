@@ -102,5 +102,11 @@
     "test-ci": "nyc --exclude examples --exclude test --exclude benchmarks --reporter=lcovonly --reporter=text npm test",
     "test-cov": "nyc --exclude examples --exclude test --exclude benchmarks --reporter=html --reporter=text npm test",
     "test-tap": "mocha --require test/support/env --reporter tap --check-leaks test/ test/acceptance/"
+  },
+  "overrides": {
+    "path-to-regexp": ">=8.4.2"
+  },
+  "resolutions": {
+    "path-to-regexp": ">=8.4.2"
   }
 }

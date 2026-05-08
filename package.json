@@ -1,7 +1,7 @@
 {
   "name": "express",
   "description": "Fast, unopinionated, minimalist web framework",
-  "version": "5.2.1",
+  "version": "5.2.1-lineaje-01",
   "author": "TJ Holowaychuk <tj@vision-media.ca>",
   "contributors": [
     "Aaron Heckmann <aaron.heckmann+github@gmail.com>",
@@ -10,10 +10,17 @@
     "Guillermo Rauch <rauchg@gmail.com>",
     "Jonathan Ong <me@jongleberry.com>",
     "Roman Shtylman <shtylman+expressjs@gmail.com>",
-    "Young Jae Sim <hanul@hanul.me>"
+    "Young Jae Sim <hanul@hanul.me>",
+    {
+      "name": "Lineaje DepFixer",
+      "email": "221268890+Lineaje-DepFixer@users.noreply.github.com"
+    }
   ],
   "license": "MIT",
-  "repository": "expressjs/express",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lineaje-labs-gos/expressjs-express"
+  },
   "homepage": "https://expressjs.com/",
   "funding": {
     "type": "opencollective",

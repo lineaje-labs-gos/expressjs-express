@@ -104,9 +104,9 @@
     "test-tap": "mocha --require test/support/env --reporter tap --check-leaks test/ test/acceptance/"
   },
   "overrides": {
-    "path-to-regexp": ">=8.4.2"
+    "path-to-regexp": "8.4.2"
   },
   "resolutions": {
-    "path-to-regexp": ">=8.4.2"
+    "path-to-regexp": "8.4.2"
   }
 }
